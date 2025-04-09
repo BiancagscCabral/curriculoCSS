@@ -1,21 +1,29 @@
+img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    margin: auto;
+}
 body {
     background: #ece9ec;
     background: -webkit-linear-gradient(to right, #817878, #deb1b1), #ece9ec;
     background: linear-gradient(to right, #817878, #deb1b1), #ece9ec;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', 'Arial', 'sans-serif';
 }
 
 h1 {
-    color:#333333;
+    color:#000000; 
     font-size: 2.5em;
-}
-
-h2.perfil {
-    color:#231236;
-    font-size: 1.5em;
-
-}
-
-.CentraLizar {
     text-align: center;
 }
+
+h2 {
+    color:#231236;
+    background: #ccc; /* fundo apenas no título, parece uma barra marcando e destacando o H1(PRINCIPAL) da página ou poderia ser qualquer outra */
+    font-size: 1.5em;
+    text-align: center;
+}
+
+ 
